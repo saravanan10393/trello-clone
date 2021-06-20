@@ -1,0 +1,66 @@
+.board {
+  height: 100%;
+  width: 100%;
+
+  padding: 0.5rem 1rem;
+
+  background-color: #eee;
+
+  display: grid;
+  grid-template-rows: 4rem 1fr;
+}
+
+.boardHeader {
+  display: flex;
+  align-items: center;
+}
+
+.statusList {
+  overflow-x: auto;
+
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(auto-fit, 25rem);
+  gap: 2rem;
+}
+
+.statusList .status {
+  /* width: 25rem; */
+  background: #ddd;
+  box-shadow: 1px 1px 5px #ddd;
+
+  display: grid;
+  grid-template-rows: 3rem 1fr;
+}
+
+.statusHeader {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.cardList {
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.taskCard {
+  padding: 1rem;
+  background: #fff;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+}
+
+.taskCard .cardDetails {
+  display: flex;
+  margin-top: 1rem;
+  gap: 0.5rem;
+}
+
+.cardDetails .assignedTo,
+.cardDetails .dueDate {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background: #ddd;
+}

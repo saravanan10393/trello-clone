@@ -1,0 +1,9 @@
+{
+  "Id": "Board001",
+  "Name": "Sample Task board",
+  "Owner": {
+    "Id": "userId",
+    "Name": "Person"
+  },
+  "CreatedAt": ""
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "Status001",
+    "Name": "Resources"
+  },
+  {
+    "Id": "Status002",
+    "Name": "ToDo"
+  },
+  {
+    "Id": "Status003",
+    "Name": "Doing"
+  },
+  {
+    "Id": "Status004",
+    "Name": "Done"
+  }
+]
